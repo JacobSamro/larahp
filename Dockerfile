@@ -1,8 +1,5 @@
 FROM php:7.2
 
-# Copy composer.json
-COPY  composer.json /var/www/
-
 # Set working directory
 WORKDIR /var/www
 
